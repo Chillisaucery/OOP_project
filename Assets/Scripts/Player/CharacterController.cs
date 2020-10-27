@@ -11,13 +11,18 @@ public class CharacterController : MonoBehaviour
 	[SerializeField] private Transform m_CeilingCheck;                          // A position marking where to check for ceilings
 	[SerializeField] private Collider2D m_CrouchDisableCollider;                // A collider that will be disabled when crouching
 
-	public bool m_Grounded;            // Whether or not the player is grounded.
+	private bool m_Grounded;            // Whether or not the player is grounded.
+	public bool getIfGrounded()
+    {
+		return m_Grounded;
+    }
 
 	const float k_GroundedRadius = .2f; // Radius of the overlap circle to determine if grounded
 	const float k_CeilingRadius = .2f; // Radius of the overlap circle to determine if the player can stand up
 	private Rigidbody2D m_Rigidbody2D;
 	private bool m_FacingRight = true;  // For determining which way the player is currently facing.
 	private Vector3 m_Velocity = Vector3.zero;
+	
 
 	[Header("Events")]
 	[Space]
@@ -134,15 +139,31 @@ public class CharacterController : MonoBehaviour
 		}
 	}
 
+	/**
+	 * @author: Luu Hien Long
+	 * @summary: push the character back when he shoot
+	 */
+	//We assume the gravity scale is 3
+	float gravity = 3;
+	public void Dash(float horizontal, float dashMultiplier)
+    {
+		float dashValue = horizontal * dashMultiplier;
+		m_Rigidbody2D.AddForce(new Vector2(dashValue, 0), ForceMode2D.Impulse);
+		
+		m_Rigidbody2D.gravityScale = gravity /10;
+		
+	}
+	public void StopDash()
+    {
+		m_Rigidbody2D.gravityScale = gravity;
+    }
+
 
 	private void Flip()
 	{
 		// Switch the way the player is labelled as facing.
 		m_FacingRight = !m_FacingRight;
 
-		// Multiply the player's x local scale by -1.
-		Vector3 theScale = transform.localScale;
-		theScale.x *= -1;
-		transform.localScale = theScale;
+		transform.Rotate(0f, 180f, 0f);
 	}
 }

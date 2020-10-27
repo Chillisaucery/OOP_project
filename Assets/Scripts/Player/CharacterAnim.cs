@@ -9,6 +9,8 @@ public class CharacterAnim : MonoBehaviour
     public CharacterMovement movement;
     public CharacterController controller;
 
+    //Private
+
     // Start is called before the first frame update
     void Start()
     {
@@ -19,17 +21,19 @@ public class CharacterAnim : MonoBehaviour
     void Update()
     {
         //If the character move (horizontal != 0), apply the running animation
-        if (movement.horizontal!=0)
+        if (movement.getHorizontal()!=0)
+        {   
             animator.SetBool("isRunning", true);
+        }
         else animator.SetBool("isRunning", false);
 
         //If the character is NOT grounded, apply the jumping/falling animation
-        if (controller.m_Grounded == false)
+        if (controller.getIfGrounded() == false)
             animator.SetBool("isJumping", true);
         else animator.SetBool("isJumping", false);
 
         //The same for the dash
-        if (movement.dashSpeed > 1)
+        if (movement.getDashSpeed() > 1)
             animator.SetBool("isDashing", true);
         else
         {
@@ -37,7 +41,17 @@ public class CharacterAnim : MonoBehaviour
         }
 
         //The same for the attacking
-        animator.SetBool("isAttacking", movement.isAttacking);
-        
+        if (movement.getIsAttacking() == true)
+        {
+            animator.SetFloat("runningTimer", 1f);
+            animator.SetBool("isAttacking", true);
+        }
+        else
+        {
+            animator.SetFloat("runningTimer", 0f);
+            animator.SetBool("isAttacking", false);
+        }
+
+
     }
 }
