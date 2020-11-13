@@ -64,9 +64,14 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\Camera\FollowPlayer.cs" />
+    <Compile Include="Assets\Scripts\Objects\Bullets\Bullet.cs" />
+    <Compile Include="Assets\Scripts\Objects\SelfDestruct.cs" />
     <Compile Include="Assets\Scripts\Player\CharacterAnim.cs" />
     <Compile Include="Assets\Scripts\Player\CharacterController.cs" />
     <Compile Include="Assets\Scripts\Player\CharacterMovement.cs" />
+    <Compile Include="Assets\Scripts\Player\HealthControl.cs" />
+    <Compile Include="Assets\Scripts\Player\Shooting.cs" />
+    <Compile Include="Assets\Weapon.cs" />
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>D:/Programming/Unity/OOP project/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>

@@ -1,0 +1,1654 @@
+fileFormatVersion: 2
+guid: a5220af9ba96278489681fe0c44d7bd5
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 21300000
+    second: zero_z1bustersheet_0
+  - first:
+      213: 21300002
+    second: zero_z1bustersheet_1
+  - first:
+      213: 21300004
+    second: zero_z1bustersheet_2
+  - first:
+      213: 21300006
+    second: zero_z1bustersheet_3
+  - first:
+      213: 21300008
+    second: zero_z1bustersheet_4
+  - first:
+      213: 21300010
+    second: zero_z1bustersheet_5
+  - first:
+      213: 21300012
+    second: zero_z1bustersheet_6
+  - first:
+      213: 21300014
+    second: zero_z1bustersheet_7
+  - first:
+      213: 21300016
+    second: zero_z1bustersheet_8
+  - first:
+      213: 21300018
+    second: zero_z1bustersheet_9
+  - first:
+      213: 21300020
+    second: zero_z1bustersheet_10
+  - first:
+      213: 21300022
+    second: zero_z1bustersheet_11
+  - first:
+      213: 21300024
+    second: zero_z1bustersheet_12
+  - first:
+      213: 21300026
+    second: zero_z1bustersheet_13
+  - first:
+      213: 21300028
+    second: zero_z1bustersheet_14
+  - first:
+      213: 21300030
+    second: zero_z1bustersheet_15
+  - first:
+      213: 21300032
+    second: zero_z1bustersheet_16
+  - first:
+      213: 21300034
+    second: zero_z1bustersheet_17
+  - first:
+      213: 21300036
+    second: zero_z1bustersheet_18
+  - first:
+      213: 21300038
+    second: zero_z1bustersheet_19
+  - first:
+      213: 21300040
+    second: zero_z1bustersheet_20
+  - first:
+      213: 21300042
+    second: zero_z1bustersheet_21
+  - first:
+      213: 21300044
+    second: zero_z1bustersheet_22
+  - first:
+      213: 21300046
+    second: zero_z1bustersheet_23
+  - first:
+      213: 21300048
+    second: zero_z1bustersheet_24
+  - first:
+      213: 21300050
+    second: zero_z1bustersheet_25
+  - first:
+      213: 21300052
+    second: zero_z1bustersheet_26
+  - first:
+      213: 21300054
+    second: zero_z1bustersheet_27
+  - first:
+      213: 21300056
+    second: zero_z1bustersheet_28
+  - first:
+      213: 21300058
+    second: zero_z1bustersheet_29
+  - first:
+      213: 21300060
+    second: zero_z1bustersheet_30
+  - first:
+      213: 21300062
+    second: zero_z1bustersheet_31
+  - first:
+      213: 21300064
+    second: zero_z1bustersheet_32
+  - first:
+      213: 21300066
+    second: zero_z1bustersheet_33
+  - first:
+      213: 21300068
+    second: zero_z1bustersheet_34
+  - first:
+      213: 21300070
+    second: zero_z1bustersheet_35
+  - first:
+      213: 21300072
+    second: zero_z1bustersheet_36
+  - first:
+      213: 21300074
+    second: zero_z1bustersheet_37
+  - first:
+      213: 21300076
+    second: zero_z1bustersheet_38
+  - first:
+      213: 21300078
+    second: zero_z1bustersheet_39
+  - first:
+      213: 21300080
+    second: zero_z1bustersheet_40
+  - first:
+      213: 21300082
+    second: zero_z1bustersheet_41
+  - first:
+      213: 21300084
+    second: zero_z1bustersheet_42
+  - first:
+      213: 21300086
+    second: zero_z1bustersheet_43
+  - first:
+      213: 21300088
+    second: zero_z1bustersheet_44
+  - first:
+      213: 21300090
+    second: zero_z1bustersheet_45
+  - first:
+      213: 21300092
+    second: zero_z1bustersheet_46
+  - first:
+      213: 21300094
+    second: zero_z1bustersheet_47
+  - first:
+      213: 21300096
+    second: zero_z1bustersheet_48
+  - first:
+      213: 21300098
+    second: zero_z1bustersheet_49
+  - first:
+      213: 21300100
+    second: zero_z1bustersheet_50
+  - first:
+      213: 21300102
+    second: zero_z1bustersheet_51
+  - first:
+      213: 21300104
+    second: zero_z1bustersheet_52
+  - first:
+      213: 21300106
+    second: zero_z1bustersheet_53
+  - first:
+      213: 21300108
+    second: zero_z1bustersheet_54
+  - first:
+      213: 21300110
+    second: zero_z1bustersheet_55
+  - first:
+      213: 21300112
+    second: zero_z1bustersheet_56
+  - first:
+      213: 21300114
+    second: zero_z1bustersheet_57
+  - first:
+      213: 21300116
+    second: zero_z1bustersheet_58
+  - first:
+      213: 21300118
+    second: zero_z1bustersheet_59
+  - first:
+      213: 21300120
+    second: zero_z1bustersheet_60
+  - first:
+      213: 21300122
+    second: zero_z1bustersheet_61
+  - first:
+      213: 21300124
+    second: zero_z1bustersheet_62
+  - first:
+      213: 21300126
+    second: zero_z1bustersheet_63
+  - first:
+      213: 21300128
+    second: zero_z1bustersheet_64
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 20
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 1
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: zero_z1bustersheet_0
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 370
+        width: 42
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8369f03a5677a8419ffc5ad936a024a
+      internalID: 21300000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zero_z1bustersheet_1
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 370
+        width: 41
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c4f74df2a0ed174e83fe504fea18f5f
+      internalID: 21300002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zero_z1bustersheet_2
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 370
+        width: 40
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9766932e68660f24fa95cf4a79c52b4d
+      internalID: 21300004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zero_z1bustersheet_3
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 316
+        width: 49
+        height: 45
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9102236336039d942ae13095480ec247
+      internalID: 21300006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zero_z1bustersheet_4
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 316
+        width: 45
+        height: 45
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d498a9f07430c8449b7f188de43c2d88
+      internalID: 21300008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zero_z1bustersheet_5
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 316
+        width: 45
+        height: 45
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15951505514ca234d8df8e580e47c767
+      internalID: 21300010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zero_z1bustersheet_6
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 316
+        width: 47
+        height: 45
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e39f78ebb96e76b48b8dae43b6eb848d
+      internalID: 21300012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zero_z1bustersheet_7
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 312
+        width: 47
+        height: 43
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96498534814387f448d9bd2a4156cd1f
+      internalID: 21300014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zero_z1bustersheet_8
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 312
+        width: 45
+        height: 43
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2bfb5b4af7457b469de45d74b59ff80
+      internalID: 21300016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zero_z1bustersheet_9
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 312
+        width: 45
+        height: 43
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f9e469eac47e57429510d7b3362d8a6
+      internalID: 21300018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zero_z1bustersheet_10
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 312
+        width: 49
+        height: 39
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66f129fb37237f349b4eae65cd6933f3
+      internalID: 21300020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zero_z1bustersheet_11
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 312
+        width: 47
+        height: 39
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01d298ac2aaddff48b0524cb2924e8b1
+      internalID: 21300022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zero_z1bustersheet_12
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 312
+        width: 47
+        height: 39
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cba8dd7a85c04e44097395436a7ada14
+      internalID: 21300024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zero_z1bustersheet_13
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 263
+        width: 43
+        height: 39
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efb7a180e7939184985be29987704961
+      internalID: 21300026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zero_z1bustersheet_14
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 263
+        width: 41
+        height: 39
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81e48c7d67635514495ab20f7a941f1b
+      internalID: 21300028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zero_z1bustersheet_15
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 263
+        width: 41
+        height: 39
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ce81012cae6d5045a112f71d273160c
+      internalID: 21300030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zero_z1bustersheet_16
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 263
+        width: 46
+        height: 38
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 948579877b237634f80f7a53cd9287f4
+      internalID: 21300032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zero_z1bustersheet_17
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 263
+        width: 44
+        height: 38
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b2b084bbbf96e54ea06baa43d4e4195
+      internalID: 21300034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zero_z1bustersheet_18
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 263
+        width: 44
+        height: 38
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b438904b02f68a49b02046222f64b31
+      internalID: 21300036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zero_z1bustersheet_19
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 263
+        width: 46
+        height: 39
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0622a74d88c9d804789ff9a801cba229
+      internalID: 21300038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zero_z1bustersheet_20
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 263
+        width: 44
+        height: 39
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ff5d92c1c92a1845a3567bf5655a393
+      internalID: 21300040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zero_z1bustersheet_21
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 263
+        width: 44
+        height: 39
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbb30fee966634048a557541a0533b63
+      internalID: 21300042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zero_z1bustersheet_22
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 265
+        width: 49
+        height: 37
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce4e2106ee731c04e848b7478ed20f5f
+      internalID: 21300044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zero_z1bustersheet_23
+      rect:
+        serializedVersion: 2
+        x: 485
+        y: 265
+        width: 47
+        height: 37
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9dd310ad3a5b98c479d36bb3efe3e1af
+      internalID: 21300046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zero_z1bustersheet_24
+      rect:
+        serializedVersion: 2
+        x: 537
+        y: 265
+        width: 47
+        height: 37
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c1be5c790969c4459eea31e0b1378dc
+      internalID: 21300048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zero_z1bustersheet_25
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 217
+        width: 43
+        height: 37
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24d0e5667e37b2144b9d74774e3ed8b2
+      internalID: 21300050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zero_z1bustersheet_26
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 217
+        width: 41
+        height: 37
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9f2b92abaec4f24b8f61a1289a2a99e
+      internalID: 21300052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zero_z1bustersheet_27
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 217
+        width: 41
+        height: 37
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57878880854f1d643b871b8d6c9b1bff
+      internalID: 21300054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zero_z1bustersheet_28
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 218
+        width: 40
+        height: 36
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61160eb3c9c5a5e4891c22ae8779dc28
+      internalID: 21300056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zero_z1bustersheet_29
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 218
+        width: 38
+        height: 36
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0b10ab9360cfd44f91a032bff14db16
+      internalID: 21300058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zero_z1bustersheet_30
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 218
+        width: 38
+        height: 36
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f5d758a300d46f4390da293ec4a1ef4
+      internalID: 21300060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zero_z1bustersheet_31
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 217
+        width: 41
+        height: 37
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9794665aafbe83541b6af72fb3724793
+      internalID: 21300062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zero_z1bustersheet_32
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 217
+        width: 39
+        height: 37
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78befee3ede66a94eaf15e662d49209c
+      internalID: 21300064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zero_z1bustersheet_33
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 217
+        width: 39
+        height: 37
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3e8e0985f17bb146a49d3add9f5efd1
+      internalID: 21300066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zero_z1bustersheet_34
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 217
+        width: 45
+        height: 38
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f7906381b2beca41b861debe75ef03c
+      internalID: 21300068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zero_z1bustersheet_35
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 217
+        width: 43
+        height: 38
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e52189dbccc2e894da84f7e9352bdb8d
+      internalID: 21300070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zero_z1bustersheet_36
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 217
+        width: 43
+        height: 38
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d6c03467d2554f40badb1682d9f2e89
+      internalID: 21300072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zero_z1bustersheet_37
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 169
+        width: 45
+        height: 38
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b18e53cec451cfc429196aebe4382710
+      internalID: 21300074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zero_z1bustersheet_38
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 169
+        width: 43
+        height: 38
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a4c15e55932b8540b84e590034fbef2
+      internalID: 21300076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zero_z1bustersheet_39
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 169
+        width: 43
+        height: 38
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ca965a5b7ae6a0449618f8e4c4c960c
+      internalID: 21300078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zero_z1bustersheet_40
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 169
+        width: 49
+        height: 37
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7b10f8b2eb4c1649b11405c85d83efd
+      internalID: 21300080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zero_z1bustersheet_41
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 169
+        width: 47
+        height: 37
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff64ddde5cf42764b88233a0e2b07056
+      internalID: 21300082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zero_z1bustersheet_42
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 169
+        width: 47
+        height: 37
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bb14bfde6c5d0941939d260036feead
+      internalID: 21300084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zero_z1bustersheet_43
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 169
+        width: 49
+        height: 37
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd2b1d716051e34499df196ba112e30b
+      internalID: 21300086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zero_z1bustersheet_44
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 169
+        width: 47
+        height: 37
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d65972a4e6bd50642b1cc17f6fa124ca
+      internalID: 21300088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zero_z1bustersheet_45
+      rect:
+        serializedVersion: 2
+        x: 475
+        y: 169
+        width: 47
+        height: 37
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21e4cf8bddf6be545b029c514fef4620
+      internalID: 21300090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zero_z1bustersheet_46
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 122
+        width: 49
+        height: 33
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 435ce6d00218bdd41ae3b7bc80837a29
+      internalID: 21300092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zero_z1bustersheet_47
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 122
+        width: 47
+        height: 33
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6dbbd1615d10a2f41bcb0c9961e2c256
+      internalID: 21300094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zero_z1bustersheet_48
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 122
+        width: 47
+        height: 33
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01bb4f9c178f7d04d9f657c8921a4bd9
+      internalID: 21300096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zero_z1bustersheet_49
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 122
+        width: 51
+        height: 33
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb4242756c994294a833ef3273b8f340
+      internalID: 21300098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zero_z1bustersheet_50
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 122
+        width: 49
+        height: 33
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8c098facae91ed48bd170e73a5b0c54
+      internalID: 21300100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zero_z1bustersheet_51
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 122
+        width: 49
+        height: 33
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2394e49712d3a0045a293a70e8948619
+      internalID: 21300102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zero_z1bustersheet_52
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 74
+        width: 49
+        height: 33
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 117a4a5911a5f5b4893988838288423d
+      internalID: 21300104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zero_z1bustersheet_53
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 74
+        width: 47
+        height: 33
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38e42578b5082ff4b914e55fd3ccd02e
+      internalID: 21300106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zero_z1bustersheet_54
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 74
+        width: 47
+        height: 33
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bb7670499cdab3499090cd519815e65
+      internalID: 21300108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zero_z1bustersheet_55
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 74
+        width: 49
+        height: 33
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 048eb33a39956a141ae2f2606b395af2
+      internalID: 21300110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zero_z1bustersheet_56
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 74
+        width: 47
+        height: 33
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88d23289b774c8b40b11cd0b9eba77b5
+      internalID: 21300112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zero_z1bustersheet_57
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 74
+        width: 47
+        height: 33
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 543077b2292d2e24da5de956f38425c4
+      internalID: 21300114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zero_z1bustersheet_58
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 13
+        width: 43
+        height: 42
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f75a68643e58e5d429564c5ed6354fed
+      internalID: 21300116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zero_z1bustersheet_59
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 13
+        width: 41
+        height: 42
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edc2c80de12b41e45b749c27fa8f5d93
+      internalID: 21300118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zero_z1bustersheet_60
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 13
+        width: 41
+        height: 42
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 535e295556e961f409953136e7fec4e5
+      internalID: 21300120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zero_z1bustersheet_61
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 13
+        width: 40
+        height: 42
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50b45da8447a4bd41a37645fdf26f5a4
+      internalID: 21300122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zero_z1bustersheet_62
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 7
+        width: 35
+        height: 53
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ba5e37a5d30695418ad98b04b447381
+      internalID: 21300124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zero_z1bustersheet_63
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 7
+        width: 33
+        height: 53
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7317318dc455b644a8f376a1ee5ead8c
+      internalID: 21300126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zero_z1bustersheet_64
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 7
+        width: 33
+        height: 53
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41a0365f43e743d4fb19d69137cdf900
+      internalID: 21300128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 037646d2fced7514c8cf18411efd5135
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
