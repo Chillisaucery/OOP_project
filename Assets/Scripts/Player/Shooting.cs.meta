@@ -3,7 +3,12 @@ guid: a785b43446fe40545b95ab1a171cb603
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - busterPoint: {instanceID: 0}
+  - bulletPrefab: {instanceID: 0}
+  - shooter: {instanceID: 0}
+  - igniteEffect: {fileID: 3278283790335734254, guid: 480ba4a19478ab0459db2d5934fce845,
+      type: 3}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 

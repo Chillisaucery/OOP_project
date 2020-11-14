@@ -49,6 +49,7 @@ public class CharacterMovement : MonoBehaviour
     private bool isAttacking = false;
     public float attackRecharge = 0.2f;
     private float attackTimer = 0f;
+    private bool ifAlterBullet = false;
 
     public bool getIsAttacking()
     {
@@ -69,31 +70,42 @@ public class CharacterMovement : MonoBehaviour
     private void Update()
     {
         horizontal = Input.GetAxisRaw("Horizontal");
-        if (horizontal == 1 || horizontal ==-1)
+        if (horizontal == 1 || horizontal == -1)
             lastHorizontal = horizontal;
 
         if (Input.GetButtonDown("Jump"))
             ifJump = true;
-        if (Input.GetButtonDown("Dash") && ableToDash==true)
+
+        if (Input.GetButtonDown("Dash") && ableToDash == true)
         {
             dashSpeed = dashMultiplier;
             ableToDash = false;
         }
-        
+
         //Get button because this let player hold the button
-        if (Input.GetButton("Attack"))
+        if (Input.GetButton("Attack") || Input.GetButton("Fire1"))
         {
             isAttacking = true;
             attackTimer += Time.deltaTime;
             if (attackTimer >= attackRecharge)
             {
-                shooting.Shoot();
+                shooting.Shoot(ifAlterBullet);
                 attackTimer = 0;
             }
         }
         else
         {
             isAttacking = false;
+        }
+
+        //Check if the bullet need altering
+        if (Input.GetButton("Fire1") && horizontal==0 && dashSpeed==1)
+        {
+            ifAlterBullet = true;
+        }    
+        else
+        {
+            ifAlterBullet = false;
         }
 
         if (ableToDash == false)

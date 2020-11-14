@@ -8,13 +8,19 @@ public class CharacterAnim : MonoBehaviour
     public Animator animator;
     public CharacterMovement movement;
     public CharacterController controller;
+    public HealthControl health;
+    public GameObject trace;
+    public float traceCooldown = 1f;
+    
 
     //Private
+    private Transform ownerPosition;
+    private float traceTimer = 0f;
 
     // Start is called before the first frame update
     void Start()
     {
-
+        ownerPosition = GetComponent<Transform>();
     }
 
     // Update is called once per frame
@@ -51,6 +57,21 @@ public class CharacterAnim : MonoBehaviour
             animator.SetFloat("runningTimer", 0f);
             animator.SetBool("isAttacking", false);
         }
+
+        //Only initialise the hurted animation
+        if (health.isDamaged == true)
+        {
+            animator.SetBool("isDamaged", true);
+            health.isDamaged = false;
+        }
+        else animator.SetBool("isDamaged", false);
+
+        if (traceTimer > traceCooldown && (movement.getDashSpeed() > 1 || controller.getIfGrounded() == false))
+        {
+            Instantiate(trace, ownerPosition.position, ownerPosition.rotation);
+            traceTimer = 0;
+        }
+        else traceTimer += Time.deltaTime;
 
 
     }
