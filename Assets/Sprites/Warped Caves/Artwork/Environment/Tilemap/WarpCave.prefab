@@ -40,7 +40,7 @@ Grid:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1779864599656888283}
   m_Enabled: 1
-  m_CellSize: {x: 2, y: 1, z: 0}
+  m_CellSize: {x: 0.5, y: 0.5, z: 0}
   m_CellGap: {x: 0, y: 0, z: 0}
   m_CellLayout: 0
   m_CellSwizzle: 0
@@ -85,6 +85,7 @@ Tilemap:
   m_GameObject: {fileID: 5534041688348574870}
   m_Enabled: 1
   m_Tiles:
+<<<<<<< HEAD
   - first: {x: 24, y: -18, z: 0}
     second:
       serializedVersion: 2
@@ -95,6 +96,8 @@ Tilemap:
       m_TileObjectToInstantiateIndex: 65535
       dummyAlignment: 0
       m_AllTileFlags: 1073741825
+=======
+>>>>>>> parent of 8305ea5... Changed the platform and created some samples enemies
   - first: {x: 32, y: -17, z: 0}
     second:
       serializedVersion: 2
@@ -1232,6 +1235,7 @@ Tilemap:
       m_TileSpriteIndex: 54
       m_TileMatrixIndex: 0
       m_TileColorIndex: 102
+<<<<<<< HEAD
       m_TileObjectToInstantiateIndex: 65535
       dummyAlignment: 0
       m_AllTileFlags: 1073741825
@@ -1255,6 +1259,11 @@ Tilemap:
       m_TileObjectToInstantiateIndex: 65535
       dummyAlignment: 0
       m_AllTileFlags: 1073741825
+=======
+      m_ObjectToInstantiate: {fileID: 0}
+      m_TileFlags: 1
+      m_ColliderType: 1
+>>>>>>> parent of 8305ea5... Changed the platform and created some samples enemies
   - first: {x: 5, y: -11, z: 0}
     second:
       serializedVersion: 2
@@ -1932,6 +1941,7 @@ Tilemap:
       m_TileSpriteIndex: 81
       m_TileMatrixIndex: 0
       m_TileColorIndex: 102
+<<<<<<< HEAD
       m_TileObjectToInstantiateIndex: 65535
       dummyAlignment: 0
       m_AllTileFlags: 1073741825
@@ -1955,6 +1965,11 @@ Tilemap:
       m_TileObjectToInstantiateIndex: 65535
       dummyAlignment: 0
       m_AllTileFlags: 1073741825
+=======
+      m_ObjectToInstantiate: {fileID: 0}
+      m_TileFlags: 1
+      m_ColliderType: 1
+>>>>>>> parent of 8305ea5... Changed the platform and created some samples enemies
   - first: {x: 5, y: -7, z: 0}
     second:
       serializedVersion: 2
@@ -2192,6 +2207,7 @@ Tilemap:
       m_TileSpriteIndex: 90
       m_TileMatrixIndex: 0
       m_TileColorIndex: 102
+<<<<<<< HEAD
       m_TileObjectToInstantiateIndex: 65535
       dummyAlignment: 0
       m_AllTileFlags: 1073741825
@@ -2205,6 +2221,11 @@ Tilemap:
       m_TileObjectToInstantiateIndex: 65535
       dummyAlignment: 0
       m_AllTileFlags: 1073741825
+=======
+      m_ObjectToInstantiate: {fileID: 0}
+      m_TileFlags: 1
+      m_ColliderType: 1
+>>>>>>> parent of 8305ea5... Changed the platform and created some samples enemies
   m_AnimatedTiles: {}
   m_TileAssetArray:
   - m_RefCount: 1
@@ -2619,6 +2640,7 @@ Tilemap:
     m_Data: {fileID: 11400000, guid: c42a800ecb476b94ebbc2fd8b27f3adb, type: 2}
   - m_RefCount: 1
     m_Data: {fileID: 11400000, guid: 8b16e4bf6a41dc045a8d5d48160f6dd9, type: 2}
+<<<<<<< HEAD
   - m_RefCount: 0
     m_Data: {fileID: 0}
   - m_RefCount: 0
@@ -2835,6 +2857,8 @@ Tilemap:
     m_Data: {fileID: 11400000, guid: 6b4174b3249e9524c96a246c614bd59d, type: 2}
   - m_RefCount: 1
     m_Data: {fileID: 11400000, guid: 405c216bc8a29744db4c69e6c4d21370, type: 2}
+=======
+>>>>>>> parent of 8305ea5... Changed the platform and created some samples enemies
   m_TileSpriteArray:
   - m_RefCount: 2
     m_Data: {fileID: 21300204, guid: 1a08f9bec49c04809b03ba62a218b140, type: 3}
@@ -3246,6 +3270,7 @@ Tilemap:
     m_Data: {fileID: 0}
   - m_RefCount: 0
     m_Data: {fileID: 0}
+<<<<<<< HEAD
   - m_RefCount: 1
     m_Data: {fileID: 21300070, guid: 5e6a5bf9b2d31ec4bb39ba14592cc10d, type: 3}
   - m_RefCount: 1
@@ -3260,6 +3285,12 @@ Tilemap:
     m_Data: {fileID: 21300000, guid: 5e6a5bf9b2d31ec4bb39ba14592cc10d, type: 3}
   m_TileMatrixArray:
   - m_RefCount: 212
+=======
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
+  m_TileMatrixArray:
+  - m_RefCount: 206
+>>>>>>> parent of 8305ea5... Changed the platform and created some samples enemies
     m_Data:
       e00: 1
       e01: 0
@@ -3377,120 +3408,128 @@ Tilemap:
   - m_RefCount: 0
     m_Data: {r: 3.6e-44, g: 3.6e-44, b: 3.6e-44, a: 3.6e-44}
   - m_RefCount: 0
-    m_Data: {r: 7.4e-44, g: 7.4e-44, b: 7.4e-44, a: 7.4e-44}
+    m_Data: {r: 3.5e-44, g: 3.5e-44, b: 3.5e-44, a: 3.5e-44}
   - m_RefCount: 0
-    m_Data: {r: 7.3e-44, g: 7.3e-44, b: 7.3e-44, a: 7.3e-44}
+    m_Data: {r: 3.4e-44, g: 3.4e-44, b: 3.4e-44, a: 3.4e-44}
   - m_RefCount: 0
-    m_Data: {r: 7.1e-44, g: 7.1e-44, b: 7.1e-44, a: 7.1e-44}
+    m_Data: {r: 3.2e-44, g: 3.2e-44, b: 3.2e-44, a: 3.2e-44}
   - m_RefCount: 0
-    m_Data: {r: NaN, g: NaN, b: NaN, a: NaN}
+    m_Data: {r: 3.1e-44, g: 3.1e-44, b: 3.1e-44, a: 3.1e-44}
   - m_RefCount: 0
-    m_Data: {r: NaN, g: NaN, b: NaN, a: NaN}
+    m_Data: {r: 3e-44, g: 3e-44, b: 3e-44, a: 3e-44}
   - m_RefCount: 0
-    m_Data: {r: NaN, g: NaN, b: NaN, a: NaN}
+    m_Data: {r: 4.3e-44, g: 4.3e-44, b: 4.3e-44, a: 4.3e-44}
   - m_RefCount: 0
-    m_Data: {r: 6.6e-44, g: 6.6e-44, b: 6.6e-44, a: 6.6e-44}
+    m_Data: {r: 4.2e-44, g: 4.2e-44, b: 4.2e-44, a: 4.2e-44}
   - m_RefCount: 0
-    m_Data: {r: 6.4e-44, g: 6.4e-44, b: 6.4e-44, a: 6.4e-44}
+    m_Data: {r: 4e-44, g: 4e-44, b: 4e-44, a: 4e-44}
   - m_RefCount: 0
-    m_Data: {r: 7.4e-44, g: 7.4e-44, b: 7.4e-44, a: 7.4e-44}
+    m_Data: {r: 3.9e-44, g: 3.9e-44, b: 3.9e-44, a: 3.9e-44}
   - m_RefCount: 0
-    m_Data: {r: 7.3e-44, g: 7.3e-44, b: 7.3e-44, a: 7.3e-44}
+    m_Data: {r: 3.8e-44, g: 3.8e-44, b: 3.8e-44, a: 3.8e-44}
   - m_RefCount: 0
-    m_Data: {r: 7.1e-44, g: 7.1e-44, b: 7.1e-44, a: 7.1e-44}
+    m_Data: {r: 3.6e-44, g: 3.6e-44, b: 3.6e-44, a: 3.6e-44}
   - m_RefCount: 0
-    m_Data: {r: 7e-44, g: 7e-44, b: 7e-44, a: 7e-44}
+    m_Data: {r: 3.5e-44, g: 3.5e-44, b: 3.5e-44, a: 3.5e-44}
   - m_RefCount: 0
-    m_Data: {r: 6.9e-44, g: 6.9e-44, b: 6.9e-44, a: 6.9e-44}
+    m_Data: {r: 3.4e-44, g: 3.4e-44, b: 3.4e-44, a: 3.4e-44}
   - m_RefCount: 0
-    m_Data: {r: 6.7e-44, g: 6.7e-44, b: 6.7e-44, a: 6.7e-44}
+    m_Data: {r: 3.2e-44, g: 3.2e-44, b: 3.2e-44, a: 3.2e-44}
   - m_RefCount: 0
-    m_Data: {r: 6.6e-44, g: 6.6e-44, b: 6.6e-44, a: 6.6e-44}
+    m_Data: {r: 3.1e-44, g: 3.1e-44, b: 3.1e-44, a: 3.1e-44}
   - m_RefCount: 0
-    m_Data: {r: 6.4e-44, g: 6.4e-44, b: 6.4e-44, a: 6.4e-44}
+    m_Data: {r: 3e-44, g: 3e-44, b: 3e-44, a: 3e-44}
   - m_RefCount: 0
-    m_Data: {r: 7.4e-44, g: 7.4e-44, b: 7.4e-44, a: 7.4e-44}
+    m_Data: {r: 4.3e-44, g: 4.3e-44, b: 4.3e-44, a: 4.3e-44}
   - m_RefCount: 0
-    m_Data: {r: 7.3e-44, g: 7.3e-44, b: 7.3e-44, a: 7.3e-44}
+    m_Data: {r: 4.2e-44, g: 4.2e-44, b: 4.2e-44, a: 4.2e-44}
   - m_RefCount: 0
-    m_Data: {r: 7.1e-44, g: 7.1e-44, b: 7.1e-44, a: 7.1e-44}
+    m_Data: {r: 4e-44, g: 4e-44, b: 4e-44, a: 4e-44}
   - m_RefCount: 0
-    m_Data: {r: 7e-44, g: 7e-44, b: 7e-44, a: 7e-44}
+    m_Data: {r: 3.9e-44, g: 3.9e-44, b: 3.9e-44, a: 3.9e-44}
   - m_RefCount: 0
-    m_Data: {r: 6.9e-44, g: 6.9e-44, b: 6.9e-44, a: 6.9e-44}
+    m_Data: {r: 3.8e-44, g: 3.8e-44, b: 3.8e-44, a: 3.8e-44}
   - m_RefCount: 0
-    m_Data: {r: 6.7e-44, g: 6.7e-44, b: 6.7e-44, a: 6.7e-44}
+    m_Data: {r: 3.6e-44, g: 3.6e-44, b: 3.6e-44, a: 3.6e-44}
   - m_RefCount: 0
-    m_Data: {r: 6.6e-44, g: 6.6e-44, b: 6.6e-44, a: 6.6e-44}
+    m_Data: {r: 3.5e-44, g: 3.5e-44, b: 3.5e-44, a: 3.5e-44}
   - m_RefCount: 0
-    m_Data: {r: 6.4e-44, g: 6.4e-44, b: 6.4e-44, a: 6.4e-44}
+    m_Data: {r: 3.4e-44, g: 3.4e-44, b: 3.4e-44, a: 3.4e-44}
   - m_RefCount: 0
-    m_Data: {r: 7.4e-44, g: 7.4e-44, b: 7.4e-44, a: 7.4e-44}
+    m_Data: {r: 3.2e-44, g: 3.2e-44, b: 3.2e-44, a: 3.2e-44}
   - m_RefCount: 0
-    m_Data: {r: 7.3e-44, g: 7.3e-44, b: 7.3e-44, a: 7.3e-44}
+    m_Data: {r: 3.1e-44, g: 3.1e-44, b: 3.1e-44, a: 3.1e-44}
   - m_RefCount: 0
-    m_Data: {r: 7.1e-44, g: 7.1e-44, b: 7.1e-44, a: 7.1e-44}
+    m_Data: {r: 3e-44, g: 3e-44, b: 3e-44, a: 3e-44}
   - m_RefCount: 0
-    m_Data: {r: 7e-44, g: 7e-44, b: 7e-44, a: 7e-44}
+    m_Data: {r: 4.3e-44, g: 4.3e-44, b: 4.3e-44, a: 4.3e-44}
   - m_RefCount: 0
-    m_Data: {r: 6.9e-44, g: 6.9e-44, b: 6.9e-44, a: 6.9e-44}
+    m_Data: {r: 4.2e-44, g: 4.2e-44, b: 4.2e-44, a: 4.2e-44}
   - m_RefCount: 0
-    m_Data: {r: 6.7e-44, g: 6.7e-44, b: 6.7e-44, a: 6.7e-44}
+    m_Data: {r: 4e-44, g: 4e-44, b: 4e-44, a: 4e-44}
   - m_RefCount: 0
-    m_Data: {r: 6.6e-44, g: 6.6e-44, b: 6.6e-44, a: 6.6e-44}
+    m_Data: {r: 3.9e-44, g: 3.9e-44, b: 3.9e-44, a: 3.9e-44}
   - m_RefCount: 0
-    m_Data: {r: 6.4e-44, g: 6.4e-44, b: 6.4e-44, a: 6.4e-44}
+    m_Data: {r: 3.8e-44, g: 3.8e-44, b: 3.8e-44, a: 3.8e-44}
   - m_RefCount: 0
-    m_Data: {r: 7.4e-44, g: 7.4e-44, b: 7.4e-44, a: 7.4e-44}
+    m_Data: {r: 3.6e-44, g: 3.6e-44, b: 3.6e-44, a: 3.6e-44}
   - m_RefCount: 0
-    m_Data: {r: 7.3e-44, g: 7.3e-44, b: 7.3e-44, a: 7.3e-44}
+    m_Data: {r: 3.5e-44, g: 3.5e-44, b: 3.5e-44, a: 3.5e-44}
   - m_RefCount: 0
-    m_Data: {r: 7.1e-44, g: 7.1e-44, b: 7.1e-44, a: 7.1e-44}
+    m_Data: {r: 3.4e-44, g: 3.4e-44, b: 3.4e-44, a: 3.4e-44}
   - m_RefCount: 0
-    m_Data: {r: 6.7e-44, g: 6.7e-44, b: 6.7e-44, a: 6.7e-44}
+    m_Data: {r: 3.2e-44, g: 3.2e-44, b: 3.2e-44, a: 3.2e-44}
   - m_RefCount: 0
-    m_Data: {r: 6.9e-44, g: 6.9e-44, b: 6.9e-44, a: 6.9e-44}
+    m_Data: {r: 3.1e-44, g: 3.1e-44, b: 3.1e-44, a: 3.1e-44}
   - m_RefCount: 0
-    m_Data: {r: 6.7e-44, g: 6.7e-44, b: 6.7e-44, a: 6.7e-44}
+    m_Data: {r: 3e-44, g: 3e-44, b: 3e-44, a: 3e-44}
   - m_RefCount: 0
-    m_Data: {r: 6.6e-44, g: 6.6e-44, b: 6.6e-44, a: 6.6e-44}
+    m_Data: {r: 4.3e-44, g: 4.3e-44, b: 4.3e-44, a: 4.3e-44}
   - m_RefCount: 0
-    m_Data: {r: 6.4e-44, g: 6.4e-44, b: 6.4e-44, a: 6.4e-44}
+    m_Data: {r: 4.2e-44, g: 4.2e-44, b: 4.2e-44, a: 4.2e-44}
   - m_RefCount: 0
-    m_Data: {r: 6.9e-44, g: 6.9e-44, b: 6.9e-44, a: 6.9e-44}
+    m_Data: {r: 4e-44, g: 4e-44, b: 4e-44, a: 4e-44}
   - m_RefCount: 0
-    m_Data: {r: 7e-44, g: 7e-44, b: 7e-44, a: 7e-44}
+    m_Data: {r: 3.9e-44, g: 3.9e-44, b: 3.9e-44, a: 3.9e-44}
   - m_RefCount: 0
-    m_Data: {r: 7.1e-44, g: 7.1e-44, b: 7.1e-44, a: 7.1e-44}
+    m_Data: {r: 3.8e-44, g: 3.8e-44, b: 3.8e-44, a: 3.8e-44}
   - m_RefCount: 0
-    m_Data: {r: 7e-44, g: 7e-44, b: 7e-44, a: 7e-44}
+    m_Data: {r: 3.6e-44, g: 3.6e-44, b: 3.6e-44, a: 3.6e-44}
   - m_RefCount: 0
-    m_Data: {r: 6.9e-44, g: 6.9e-44, b: 6.9e-44, a: 6.9e-44}
+    m_Data: {r: 3.5e-44, g: 3.5e-44, b: 3.5e-44, a: 3.5e-44}
   - m_RefCount: 0
-    m_Data: {r: 6.7e-44, g: 6.7e-44, b: 6.7e-44, a: 6.7e-44}
+    m_Data: {r: 3.4e-44, g: 3.4e-44, b: 3.4e-44, a: 3.4e-44}
   - m_RefCount: 0
-    m_Data: {r: 6.6e-44, g: 6.6e-44, b: 6.6e-44, a: 6.6e-44}
+    m_Data: {r: 3.2e-44, g: 3.2e-44, b: 3.2e-44, a: 3.2e-44}
   - m_RefCount: 0
-    m_Data: {r: 6.4e-44, g: 6.4e-44, b: 6.4e-44, a: 6.4e-44}
+    m_Data: {r: 3.1e-44, g: 3.1e-44, b: 3.1e-44, a: 3.1e-44}
   - m_RefCount: 0
-    m_Data: {r: 7.1e-44, g: 7.1e-44, b: 7.1e-44, a: 7.1e-44}
+    m_Data: {r: 3e-44, g: 3e-44, b: 3e-44, a: 3e-44}
   - m_RefCount: 0
-    m_Data: {r: 7e-44, g: 7e-44, b: 7e-44, a: 7e-44}
+    m_Data: {r: 3.4e-44, g: 3.4e-44, b: 3.4e-44, a: 3.4e-44}
   - m_RefCount: 0
-    m_Data: {r: 6.9e-44, g: 6.9e-44, b: 6.9e-44, a: 6.9e-44}
+    m_Data: {r: 3.2e-44, g: 3.2e-44, b: 3.2e-44, a: 3.2e-44}
   - m_RefCount: 0
-    m_Data: {r: 6.7e-44, g: 6.7e-44, b: 6.7e-44, a: 6.7e-44}
+    m_Data: {r: 3.1e-44, g: 3.1e-44, b: 3.1e-44, a: 3.1e-44}
   - m_RefCount: 0
+<<<<<<< HEAD
     m_Data: {r: 6.6e-44, g: 6.6e-44, b: 6.6e-44, a: 6.6e-44}
   - m_RefCount: 212
     m_Data: {r: 1, g: 1, b: 1, a: 1}
   - m_RefCount: 0
     m_Data: {r: 3.6e-44, g: 3.6e-44, b: 3.6e-44, a: 3.6e-44}
   m_TileObjectToInstantiateArray: []
+=======
+    m_Data: {r: 3e-44, g: 3e-44, b: 3e-44, a: 3e-44}
+  - m_RefCount: 206
+    m_Data: {r: 1, g: 1, b: 1, a: 1}
+  - m_RefCount: 0
+    m_Data: {r: 4.3e-44, g: 4.3e-44, b: 4.3e-44, a: 4.3e-44}
+>>>>>>> parent of 8305ea5... Changed the platform and created some samples enemies
   m_AnimationFrameRate: 1
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Origin: {x: -3, y: -20, z: 0}
-  m_Size: {x: 68, y: 26, z: 1}
+  m_Size: {x: 45, y: 26, z: 1}
   m_TileAnchor: {x: 0.5, y: 0.5, z: 0}
   m_TileOrientation: 0
   m_TileOrientationMatrix:
@@ -3551,7 +3590,7 @@ TilemapRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_ChunkSize: {x: 32, y: 32, z: 32}
-  m_ChunkCullingBounds: {x: 0.5, y: 0.75, z: 0}
+  m_ChunkCullingBounds: {x: 0, y: 0, z: 0}
   m_MaxChunkCount: 16
   m_MaxFrameAge: 16
   m_SortOrder: 0
