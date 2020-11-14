@@ -46,7 +46,7 @@ MonoBehaviour:
     y: 0
     width: 1366
     height: 685
-  m_MinSize: {x: 950, y: 548}
+  m_MinSize: {x: 950, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &3
 MonoBehaviour:
@@ -112,15 +112,10 @@ MonoBehaviour:
     y: 30
     width: 1366
     height: 635
-<<<<<<< HEAD
-  m_MinSize: {x: 681, y: 498}
-  m_MaxSize: {x: 14004, y: 14048}
-=======
-  m_MinSize: {x: 681, y: 348}
-  m_MaxSize: {x: 12006, y: 8048}
->>>>>>> parent of 8305ea5... Changed the platform and created some samples enemies
+  m_MinSize: {x: 683, y: 348}
+  m_MaxSize: {x: 12008, y: 8048}
   vertical: 0
-  controlID: 93
+  controlID: 76
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -142,14 +137,10 @@ MonoBehaviour:
     y: 0
     width: 1013
     height: 635
-  m_MinSize: {x: 404, y: 348}
-  m_MaxSize: {x: 8004, y: 8048}
+  m_MinSize: {x: 406, y: 348}
+  m_MaxSize: {x: 8006, y: 8048}
   vertical: 1
-<<<<<<< HEAD
-  controlID: 15
-=======
-  controlID: 94
->>>>>>> parent of 8305ea5... Changed the platform and created some samples enemies
+  controlID: 57
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -171,14 +162,10 @@ MonoBehaviour:
     y: 0
     width: 1013
     height: 354
-  m_MinSize: {x: 404, y: 224}
-  m_MaxSize: {x: 8004, y: 4024}
+  m_MinSize: {x: 406, y: 224}
+  m_MaxSize: {x: 8006, y: 4024}
   vertical: 0
-<<<<<<< HEAD
-  controlID: 16
-=======
-  controlID: 95
->>>>>>> parent of 8305ea5... Changed the platform and created some samples enemies
+  controlID: 58
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -198,8 +185,8 @@ MonoBehaviour:
     y: 0
     width: 265
     height: 354
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 202, y: 224}
+  m_MaxSize: {x: 4002, y: 4024}
   m_ActualView: {fileID: 13}
   m_Panes:
   - {fileID: 13}
@@ -252,8 +239,8 @@ MonoBehaviour:
     y: 354
     width: 1013
     height: 281
-  m_MinSize: {x: 102, y: 124}
-  m_MaxSize: {x: 4002, y: 4024}
+  m_MinSize: {x: 100, y: 100}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 18}
   m_Panes:
   - {fileID: 17}
@@ -280,8 +267,8 @@ MonoBehaviour:
     y: 0
     width: 353
     height: 635
-  m_MinSize: {x: 277, y: 74}
-  m_MaxSize: {x: 4002, y: 4024}
+  m_MinSize: {x: 275, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 19}
   m_Panes:
   - {fileID: 19}
@@ -396,40 +383,23 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-<<<<<<< HEAD
-      m_SelectedIDs: 
-      m_LastClickedID: 0
-      m_ExpandedIDs: defbffffea1400001615000052150000
-      m_RenameOverlay:
-        m_UserAcceptedRename: 0
-        m_Name: background
-        m_OriginalName: background
-=======
-      m_SelectedIDs: de110000
-      m_LastClickedID: 4574
-      m_ExpandedIDs: defbffffc0110000d0110000ee110000
+      m_SelectedIDs: 10c6ffff
+      m_LastClickedID: -14832
+      m_ExpandedIDs: 10c6ffff6af6ffff00000000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
         m_OriginalName: 
->>>>>>> parent of 8305ea5... Changed the platform and created some samples enemies
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
           y: 0
           width: 0
           height: 0
-<<<<<<< HEAD
-        m_UserData: 5392
-        m_IsWaitingForDelay: 0
-        m_IsRenaming: 0
-        m_OriginalEventType: 0
-=======
         m_UserData: 0
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
         m_OriginalEventType: 11
->>>>>>> parent of 8305ea5... Changed the platform and created some samples enemies
         m_IsRenamingFilename: 0
         m_ClientGUIView: {fileID: 8}
       m_SearchString: 
@@ -470,15 +440,9 @@ MonoBehaviour:
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-<<<<<<< HEAD
-    m_Target: {x: 6.5441394, y: 1.9067029, z: -0.17671604}
+    m_Target: {x: 41.336037, y: -13.719486, z: -0.578125}
     speed: 2
-    m_Value: {x: 6.5441394, y: 1.9067029, z: -0.17671604}
-=======
-    m_Target: {x: -3.9784658, y: 3.785621, z: 0.15958762}
-    speed: 2
-    m_Value: {x: -3.9784658, y: 3.785621, z: 0.15958762}
->>>>>>> parent of 8305ea5... Changed the platform and created some samples enemies
+    m_Value: {x: 41.336037, y: -13.719486, z: -0.578125}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -502,23 +466,17 @@ MonoBehaviour:
       speed: 2
       m_Value: 0
     zGrid:
-      m_Target: 0
+      m_Target: 1
       speed: 2
-      m_Value: 0
+      m_Value: 1
   m_Rotation:
     m_Target: {x: 0, y: 0, z: 0, w: 1}
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-<<<<<<< HEAD
-    m_Target: 21.559813
+    m_Target: 61.555653
     speed: 2
-    m_Value: 21.559813
-=======
-    m_Target: 5.9844527
-    speed: 2
-    m_Value: 5.9844527
->>>>>>> parent of 8305ea5... Changed the platform and created some samples enemies
+    m_Value: 61.555653
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -587,15 +545,11 @@ MonoBehaviour:
     - {fileID: 1107973005339336120, guid: 1787e12128b221946bba3d0288965d00, type: 2}
     - {fileID: 1107823174792394656, guid: 0c0ec0b88c9f10f49a0058893a02d3eb, type: 2}
     - {fileID: 1107792012404934530, guid: 0c0ec0b88c9f10f49a0058893a02d3eb, type: 2}
+    - {fileID: 1102158565890752076, guid: 0c0ec0b88c9f10f49a0058893a02d3eb, type: 2}
     - {fileID: 1102849328807490182, guid: 0c0ec0b88c9f10f49a0058893a02d3eb, type: 2}
     - {fileID: 1107374149686195270, guid: ec10ae0faed5e3c45864b3376c82ac77, type: 2}
-<<<<<<< HEAD
     - {fileID: 1107774735507154890, guid: 67a87646e7a19034480b13f84eba2693, type: 2}
     - {fileID: 1107351402610589208, guid: 53887d2f178087344b1248e11c4b9abe, type: 2}
-    - {fileID: 1107940599209813466, guid: 0c0ec0b88c9f10f49a0058893a02d3eb, type: 2}
-    - {fileID: 1102994872330648680, guid: 0c0ec0b88c9f10f49a0058893a02d3eb, type: 2}
-=======
->>>>>>> parent of 8305ea5... Changed the platform and created some samples enemies
     m_ValueSerializationHelper:
     - e00: 0.7702454
       e01: 0
@@ -613,14 +567,14 @@ MonoBehaviour:
       e31: 0
       e32: 0
       e33: 1
-    - e00: 0.26515222
+    - e00: 0.513674
       e01: 0
       e02: 0
-      e03: 186.87459
+      e03: 58.391876
       e10: 0
-      e11: 0.26515222
+      e11: 0.513674
       e12: 0
-      e13: 120.793045
+      e13: 95.54337
       e20: 0
       e21: 0
       e22: 1
@@ -637,6 +591,22 @@ MonoBehaviour:
       e11: 0.49628967
       e12: 0
       e13: 44.01542
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    - e00: 0.8751831
+      e01: 0
+      e02: 0
+      e03: 111.65552
+      e10: 0
+      e11: 0.8751831
+      e12: 0
+      e13: 60.914474
       e20: 0
       e21: 0
       e22: 1
@@ -709,51 +679,11 @@ MonoBehaviour:
       e31: 0
       e32: 0
       e33: 1
-<<<<<<< HEAD
-    - e00: 0.64842105
-      e01: 0
-      e02: 0
-      e03: -17.421051
-      e10: 0
-      e11: 0.64842105
-      e12: 0
-      e13: 49.4
-      e20: 0
-      e21: 0
-      e22: 1
-      e23: 0
-      e30: 0
-      e31: 0
-      e32: 0
-      e33: 1
-    - e00: 1
-      e01: 0
-      e02: 0
-      e03: 223
-      e10: 0
-      e11: 1
-      e12: 0
-      e13: 76
-      e20: 0
-      e21: 0
-      e22: 1
-      e23: 0
-      e30: 0
-      e31: 0
-      e32: 0
-      e33: 1
   m_PreviewAnimator: {fileID: 0}
-  m_AnimatorController: {fileID: 9100000, guid: 0c0ec0b88c9f10f49a0058893a02d3eb,
+  m_AnimatorController: {fileID: 9100000, guid: 67a87646e7a19034480b13f84eba2693,
     type: 2}
   m_BreadCrumbs:
-  - m_Target: {fileID: 1107823174792394656, guid: 0c0ec0b88c9f10f49a0058893a02d3eb,
-=======
-  m_PreviewAnimator: {fileID: 0}
-  m_AnimatorController: {fileID: 9100000, guid: ec10ae0faed5e3c45864b3376c82ac77,
-    type: 2}
-  m_BreadCrumbs:
-  - m_Target: {fileID: 1107374149686195270, guid: ec10ae0faed5e3c45864b3376c82ac77,
->>>>>>> parent of 8305ea5... Changed the platform and created some samples enemies
+  - m_Target: {fileID: 1107774735507154890, guid: 67a87646e7a19034480b13f84eba2693,
       type: 2}
     m_ScrollPosition: {x: 0, y: 0}
   stateMachineGraph: {fileID: 0}
@@ -805,27 +735,20 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Sprites/Megaman/Zero
+    - Assets/GameObjects
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Sprites/Megaman/Zero
+  - Assets/GameObjects
   m_LastFoldersGridSize: -1
   m_LastProjectPath: D:\Programming\Unity\OOP project
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-<<<<<<< HEAD
-    scrollPos: {x: 0, y: 176}
-    m_SelectedIDs: ec0a0000
-    m_LastClickedID: 2796
-    m_ExpandedIDs: 00000000f6090000800a0000300b0000960b0000fc0b00000a0c000026110000dc120000f61200006a140000a214000000ca9a3b
-=======
-    scrollPos: {x: 0, y: 64}
-    m_SelectedIDs: 9c3c0000
-    m_LastClickedID: 15516
-    m_ExpandedIDs: 0000000082090000040a0000f40a00004e0b00005a0b0000f20f00004c1100007e110000da3d000000ca9a3b
->>>>>>> parent of 8305ea5... Changed the platform and created some samples enemies
+    scrollPos: {x: 0, y: 0}
+    m_SelectedIDs: 402d0000
+    m_LastClickedID: 11584
+    m_ExpandedIDs: 00000000442c0000b42c0000d82d000050320000fa33000010340000643500009435000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -853,11 +776,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-<<<<<<< HEAD
-    m_ExpandedIDs: 00000000f6090000800a0000300b0000fc0b000026110000dc120000f61200006a140000a2140000
-=======
-    m_ExpandedIDs: 0000000082090000040a0000f40a00004e0b00005a0b0000f20f00004c1100007e110000
->>>>>>> parent of 8305ea5... Changed the platform and created some samples enemies
+    m_ExpandedIDs: 00000000442c0000b42c0000d82d000050320000fa330000103400006435000094350000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -882,17 +801,10 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-<<<<<<< HEAD
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 1
-    m_ExpandedInstanceIDs: c62300002a2c00003a2b0000520a00003a3000004a300000a40a00001c0c0000200d000020560000a2090000780c00007a0c0000982e0000603800009c32000000000000
-=======
-    m_SelectedInstanceIDs: b4420000
-    m_LastClickedInstanceID: 17076
-    m_HadKeyboardFocusLastEvent: 1
-    m_ExpandedInstanceIDs: c62300002a2c00003a2b0000520a00003a3000004a300000a40a0000000000001c0c0000200d000020560000a2090000780c00007a0c0000982e000060380000
->>>>>>> parent of 8305ea5... Changed the platform and created some samples enemies
+    m_HadKeyboardFocusLastEvent: 0
+    m_ExpandedInstanceIDs: c62300002a2c00003a2b0000520a00003a3000004a300000a40a0000000000001c0c0000200d000020560000a2090000780c00007a0c0000982e0000603800009c320000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 

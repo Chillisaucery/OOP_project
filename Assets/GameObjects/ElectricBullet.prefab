@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 8165045106265524441}
   - component: {fileID: 44868880627589754}
   - component: {fileID: 114818611641939176}
+  - component: {fileID: 114215564648868986}
   m_Layer: 0
   m_Name: ElectricBullet
   m_TagString: Untagged
@@ -70,7 +71,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 1229272935
-  m_SortingLayer: 3
+  m_SortingLayer: 4
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300396, guid: 7297433d68c705f4d9e1fbb14957b5b5, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -152,8 +153,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 20
-<<<<<<< HEAD
   damage: 10
-=======
->>>>>>> parent of 8305ea5... Changed the platform and created some samples enemies
   rb: {fileID: 8165045106265524441}
+--- !u!114 &114215564648868986
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8165045106265524445}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18948bbc7d6b614fbe4891da0825660, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  timeLimit: 5
