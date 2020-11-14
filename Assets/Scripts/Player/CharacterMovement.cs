@@ -38,6 +38,7 @@ public class CharacterMovement : MonoBehaviour
     public float dashDuration = 1.0f;
     private float dashTimer = 0f;
     private float dashSpeed = 1f;
+    private bool ableToDash = true;
 
     public float getDashSpeed()
     {
@@ -46,7 +47,7 @@ public class CharacterMovement : MonoBehaviour
 
     //Attacking
     private bool isAttacking = false;
-    public float attackDuration = 0.1f;
+    public float attackRecharge = 0.2f;
     private float attackTimer = 0f;
 
     public bool getIsAttacking()
@@ -73,45 +74,60 @@ public class CharacterMovement : MonoBehaviour
 
         if (Input.GetButtonDown("Jump"))
             ifJump = true;
-        if (Input.GetButtonDown("Dash"))
+        if (Input.GetButtonDown("Dash") && ableToDash==true)
         {
             dashSpeed = dashMultiplier;
+            ableToDash = false;
         }
-        //Get button (not get button down) because this let player hold the button
+        
+        //Get button because this let player hold the button
         if (Input.GetButton("Attack"))
         {
             isAttacking = true;
-            shooting.Shoot();
+            attackTimer += Time.deltaTime;
+            if (attackTimer >= attackRecharge)
+            {
+                shooting.Shoot();
+                attackTimer = 0;
+            }
+        }
+        else
+        {
+            isAttacking = false;
+        }
+
+        if (ableToDash == false)
+        {
+            controller.StopDash();
+            dashTimer += Time.deltaTime;
+        }
+
+        if (dashTimer >= dashDuration)      //If the player dashed for enough time
+        {
+            dashSpeed = 1;
+            
+            if (dashSpeed >= dashDuration *1.5)
+            {
+                ableToDash = true;
+                dashTimer = 0;
+            }
         }
 
     }
 
+
     private void FixedUpdate()
     {
-        if (dashTimer >= dashDuration)      //If the player dashed for enough time
-        {
-            dashSpeed = 1;
-            dashTimer = 0;
-            controller.StopDash();
-        }
-        else
-            dashTimer += Time.deltaTime;
+
 
         //if (rechargeTimer >= dashRecharge)
         //    rechargeTimer = 0;
         //else rechargeTimer += Time.deltaTime;
-
-        if (attackTimer >= attackDuration)
-        {
-            isAttacking = false;
-            attackTimer = 0;
-        }
-        else attackTimer += Time.deltaTime;
-
+            
         controller.Move(horizontal * Time.fixedDeltaTime * moveSpeed, false, ifJump);
         
         if (dashSpeed>1)
-            controller.Dash(lastHorizontal, dashMultiplier);
+            controller.Dash(dashMultiplier * Time.fixedDeltaTime);
         ifJump = false;
         
         
