@@ -5,8 +5,9 @@ using UnityEngine;
 public class LargeSizeControl : MonoBehaviour
 {
     private Transform transform;
-    private HealthControl health;
+    private HealthControl healthControl;
     public float sizeMultiplier = 2f;
+    public float healPerSecond = 1f;
     public float healthMultiplier = 2f;
 
 
@@ -14,14 +15,14 @@ public class LargeSizeControl : MonoBehaviour
     void Start()
     {
         transform = GetComponent<Transform>();
-        health = GetComponent<HealthControl>();
+        healthControl = GetComponent<HealthControl>();
         transform.localScale+= new Vector3 (sizeMultiplier, sizeMultiplier, 1);
-        health.health *= healthMultiplier;
+        healthControl.health *= healthMultiplier;
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+        healthControl.TakeDamage(-1 * healPerSecond);
     }
 }
