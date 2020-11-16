@@ -26,7 +26,7 @@ public class DealDamage : MonoBehaviour
 
         //Get the components from the target
         HealthControl targetHealth = collision.GetComponent<HealthControl>();
-        Rigidbody2D targetBody = collision.GetComponent<Rigidbody2D>();
+        //Rigidbody2D targetBody = collision.GetComponent<Rigidbody2D>();
 
         //Deal damage to the target
         if (targetHealth != null && collision.name == "Player")
@@ -35,7 +35,7 @@ public class DealDamage : MonoBehaviour
         }
 
         //Make the target fall back
-        targetBody.AddForce(new Vector2(force*targetBody.transform.right.x*-1, force/10), ForceMode2D.Impulse);
+        //targetBody.AddForce(new Vector2(force*targetBody.transform.right.x*-1, force/10), ForceMode2D.Impulse);
 
     }
 }

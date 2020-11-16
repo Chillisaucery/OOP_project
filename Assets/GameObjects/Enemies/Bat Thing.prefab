@@ -206,7 +206,7 @@ MonoBehaviour:
   - {x: -0.102633476, y: 0.45020485, z: 0}
   m_ShapePathHash: -1699180739
   m_Mesh: {fileID: 0}
-  m_InstanceId: 37206
+  m_InstanceId: 33756
 --- !u!114 &454214888866017536
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -268,9 +268,9 @@ MonoBehaviour:
   m_WhatIsGround:
     serializedVersion: 2
     m_Bits: 55
-  m_GroundCheck: {fileID: 0}
-  m_CeilingCheck: {fileID: 0}
-  m_CrouchDisableCollider: {fileID: 0}
+  m_GroundCheck: {fileID: 454214887107033107}
+  m_CeilingCheck: {fileID: 454214888273212770}
+  m_CrouchDisableCollider: {fileID: 454214888866017542}
   OnLandEvent:
     m_PersistentCalls:
       m_Calls: []
@@ -386,7 +386,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0a6eb93617b56e248bd068e1056e08ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 70
+  health: 120
   isDamaged: 0
   deathEffect: {fileID: 7375931621364326060, guid: f15d702658ea6db49ac03a9217f63f4b,
     type: 3}

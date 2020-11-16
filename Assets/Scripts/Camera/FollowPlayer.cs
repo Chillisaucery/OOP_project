@@ -23,5 +23,9 @@ public class FollowPlayer : MonoBehaviour
         // Set the position of the camera's transform to be the same as the player's, but offset by the calculated offset distance.
         transform.position = player.transform.position + offset;
         transform.position = new Vector3(transform.position.x, transform.position.y + yOffset, zOffset);
+
+        // Set the position of the camera's transform to another place if the player die.
+        if (!player)
+            transform.position = Vector3.zero;
     }
 }

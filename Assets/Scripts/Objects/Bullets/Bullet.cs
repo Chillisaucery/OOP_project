@@ -29,22 +29,23 @@ public class Bullet : MonoBehaviour
         Debug.Log(collision.name);
 
         HealthControl targetHealth = collision.GetComponent<HealthControl>();
-        Rigidbody2D targetBody = collision.GetComponent<Rigidbody2D>();
 
         //Animate the effect when being destroyed
-        Instantiate(onDestroyEffect, collision.transform.position, collision.transform.rotation);
+        Instantiate(onDestroyEffect, transform.position, transform.rotation);
 
         //Deal damage to the target
         if (targetHealth != null)
         {
             targetHealth.TakeDamage(damage);
+            if (!collision.GetComponent<Bullet>())
+                Destroy(gameObject);
         }
 
         //Make the target fall back
-        targetBody.AddForce(new Vector2(force*transform.right.x, 0), ForceMode2D.Impulse);
+        //Rigidbody2D targetBody = collision.GetComponent<Rigidbody2D>();
+        //targetBody.AddForce(new Vector2(force*transform.right.x, 0), ForceMode2D.Impulse);
 
-        if (!collision.GetComponent<Bullet>()) 
-            Destroy(gameObject);
+        
 
     }
 }
