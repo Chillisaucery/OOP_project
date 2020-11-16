@@ -158,7 +158,6 @@ MonoBehaviour:
   speed: 30
   damage: 10
   force: 2
-  rb: {fileID: 8165045106265524441}
   onDestroyEffect: {fileID: 3278283790335734254, guid: 480ba4a19478ab0459db2d5934fce845,
     type: 3}
 --- !u!114 &114215564648868986

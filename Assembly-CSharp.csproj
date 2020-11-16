@@ -64,6 +64,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\Camera\FollowPlayer.cs" />
+    <Compile Include="Assets\Scripts\Enemies AI\FlyingAI.cs" />
+    <Compile Include="Assets\Scripts\Enemies AI\GroundedAI.cs" />
     <Compile Include="Assets\Scripts\Objects\Bullets\Bullet.cs" />
     <Compile Include="Assets\Scripts\Objects\DealDamage.cs" />
     <Compile Include="Assets\Scripts\Objects\SelfDestruct.cs" />

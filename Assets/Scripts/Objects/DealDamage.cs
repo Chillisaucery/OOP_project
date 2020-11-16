@@ -29,7 +29,7 @@ public class DealDamage : MonoBehaviour
         Rigidbody2D targetBody = collision.GetComponent<Rigidbody2D>();
 
         //Deal damage to the target
-        if (targetHealth != null)
+        if (targetHealth != null && collision.name == "Player")
         {
             targetHealth.TakeDamage(damage);
         }
