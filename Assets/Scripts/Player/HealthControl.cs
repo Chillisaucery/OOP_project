@@ -5,7 +5,6 @@ using UnityEngine;
 public class HealthControl : MonoBehaviour
 {
     public float health = 100f;
-    public bool isDamaged = false;
 
     public GameObject deathEffect;
 
@@ -19,14 +18,11 @@ public class HealthControl : MonoBehaviour
     public void TakeDamage (float damage)
     {
 
-        if (health - damage <=100) 
-            health -= damage;
+        health -= damage;
         if (health<=0)
         {
             Die();
         }
-        if (damage>0)
-            isDamaged = true;
     }
 
     private void Die()

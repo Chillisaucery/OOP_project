@@ -145,12 +145,12 @@ public class CharacterController : MonoBehaviour
 	 */
 	//We assume the gravity scale is 3
 	float gravity = 3;
-	public void Dash(float dashMultiplier)
+	public void Dash(float horizontal, float dashMultiplier)
     {
-		float dashValue = dashMultiplier;
-		m_Rigidbody2D.velocity = transform.right * dashValue;
+		float dashValue = horizontal * dashMultiplier;
+		m_Rigidbody2D.AddForce(new Vector2(dashValue, 0), ForceMode2D.Impulse);
 		
-		m_Rigidbody2D.gravityScale = 0;
+		m_Rigidbody2D.gravityScale = gravity /10;
 		
 	}
 	public void StopDash()

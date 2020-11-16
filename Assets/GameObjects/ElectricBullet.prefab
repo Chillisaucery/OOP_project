@@ -15,7 +15,6 @@ GameObject:
   - component: {fileID: 44868880627589754}
   - component: {fileID: 114818611641939176}
   - component: {fileID: 114215564648868986}
-  - component: {fileID: 6862893811499630431}
   m_Layer: 0
   m_Name: ElectricBullet
   m_TagString: Untagged
@@ -51,11 +50,10 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -63,7 +61,6 @@ SpriteRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
@@ -155,11 +152,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8edb435fc376ae843b8474e66e8610f8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 30
-  damage: 10
-  force: 2
-  onDestroyEffect: {fileID: 3278283790335734254, guid: 480ba4a19478ab0459db2d5934fce845,
-    type: 3}
+  speed: 20
+  damage: 2
+  rb: {fileID: 8165045106265524441}
 --- !u!114 &114215564648868986
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -172,45 +167,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c18948bbc7d6b614fbe4891da0825660, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timeLimit: 1
---- !u!114 &6862893811499630431
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8165045106265524445}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 073797afb82c5a1438f328866b10b3f0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_LightType: 3
-  m_BlendStyleIndex: 0
-  m_FalloffIntensity: 0.44
-  m_Color: {r: 0.25943398, g: 1, b: 0.7484013, a: 1}
-  m_Intensity: 1
-  m_LightVolumeOpacity: 0
-  m_ApplyToSortingLayers: 0000000097f81d5181fe28eb872e890967374549
-  m_LightCookieSprite: {fileID: 0}
-  m_UseNormalMap: 0
-  m_LightOrder: 0
-  m_AlphaBlendOnOverlap: 0
-  m_ShadowIntensity: 0
-  m_ShadowVolumeIntensity: 0
-  m_PointLightInnerAngle: 360
-  m_PointLightOuterAngle: 360
-  m_PointLightInnerRadius: 0.2
-  m_PointLightOuterRadius: 0.5
-  m_PointLightDistance: 3
-  m_PointLightQuality: 1
-  m_ShapeLightParametricSides: 6
-  m_ShapeLightParametricAngleOffset: 0
-  m_ShapeLightParametricRadius: 1
-  m_ShapeLightFalloffSize: 0.5
-  m_ShapeLightFalloffOffset: {x: 0, y: 0}
-  m_ShapePath:
-  - {x: -0.5, y: -0.5, z: 0}
-  - {x: 0.5, y: -0.5, z: 0}
-  - {x: 0.5, y: 0.5, z: 0}
-  - {x: -0.5, y: 0.5, z: 0}
+  timeLimit: 5

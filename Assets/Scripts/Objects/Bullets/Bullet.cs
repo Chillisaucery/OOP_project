@@ -6,14 +6,11 @@ public class Bullet : MonoBehaviour
 {
     public float speed = 20f;
     public float damage = 10f;
-    public float force = 200f;
-    private Rigidbody2D rb;
-    public GameObject onDestroyEffect;
+    public Rigidbody2D rb;
 
     // Start is called before the first frame update
     void Start()
     {
-        rb = GetComponent<Rigidbody2D>();
         rb.velocity = transform.right * speed;
     }
 
@@ -28,22 +25,14 @@ public class Bullet : MonoBehaviour
     {
         Debug.Log(collision.name);
 
-        HealthControl targetHealth = collision.GetComponent<HealthControl>();
-        Rigidbody2D targetBody = collision.GetComponent<Rigidbody2D>();
+        HealthControl target = collision.GetComponent<HealthControl>();
 
-        //Animate the effect when being destroyed
-        Instantiate(onDestroyEffect, collision.transform.position, collision.transform.rotation);
-
-        //Deal damage to the target
-        if (targetHealth != null)
+        if (target != null)
         {
-            targetHealth.TakeDamage(damage);
+            target.TakeDamage(damage);
         }
 
-        //Make the target fall back
-        targetBody.AddForce(new Vector2(force*transform.right.x, 0), ForceMode2D.Impulse);
-
-        if (!collision.GetComponent<Bullet>()) 
+        if (collision.name != "ElectricBullet(Clone)")
             Destroy(gameObject);
 
     }
